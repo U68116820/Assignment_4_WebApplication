@@ -22,14 +22,14 @@ namespace Assignment_4_WebApplication.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return View(); 
         }
         public IActionResult Home()
         {
             return View("Index");
         }
         /// api call
-        HttpClient httpClient;
+        HttpClient httpClient; 
 
         static string BASE_URL = "https://api.usa.gov/crime/fbi/sapi/";
         static string API_KEY = "g1mjvzQVDzMmHo0UQgfjLMgV4pzyazleokQOM5XS";
