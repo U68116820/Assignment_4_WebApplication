@@ -26,7 +26,7 @@ namespace Assignment_4_WebApplication.Controllers
         }
         public IActionResult Home()
         {
-            return View("Index");
+            return View("Index"); 
         }
         /// api call
         HttpClient httpClient;
